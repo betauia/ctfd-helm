@@ -39,8 +39,8 @@ persistence:
     # storageClass: "-"
 
 service:
-  type: ClusterIP
-  port: 80
+  type: LoadBalancer
+  port: 9999
 
 probes:
   liveness:
